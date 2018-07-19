@@ -27,7 +27,7 @@ def add_s(array)
 end
 
 def find_a(array)
-  array.delete_if {|word| start_with?("a")
+  array.select {|word| start_with?("a")}
 end  
     
     
