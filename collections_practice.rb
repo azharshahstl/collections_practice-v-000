@@ -36,8 +36,8 @@ def kesha_maker(array)
     word.split(//)
     word[2] = $
      ke$ha << word.join
-    
-  
+  end
+  ke$ha
 end
     
     
