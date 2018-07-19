@@ -27,10 +27,12 @@ def add_s(array)
 end
 
 def find_a(array)
-  array_with_a = []
+  new_array
   array.collect do |word|
     if word.start_with?("a")
-      array_with_a << "#{word}"
+      new_array << "#{word}"
+    else
+      false 
     end
   end
 end  
