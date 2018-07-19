@@ -37,7 +37,7 @@ def kesha_maker(array)
     #binding.pry
     word.split(//)
     word[2] = "$"
-     kesha << word
+     kesha << word.join
   end
   kesha
 end
