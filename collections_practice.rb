@@ -31,13 +31,13 @@ def find_a(array)
 end  
 
 def kesha_maker(array)
-  ke$ha = []
+  kesha = []
   array.each do |word|
     word.split(//)
     word[2] = "$"
-     ke$ha << word.join
+     kesha << word.join
   end
-  ke$ha
+  kesha
 end
     
     
