@@ -25,3 +25,13 @@ end
 def add_s(array)
   array.each_with_index.collect {|word, index| index == 1? "#{word}":"#{word}s"}
 end
+
+def find_a
+  words_starting_with a = []
+  array.collect do |word|
+    word.starts_with?("a")? words_starting_with_a << word: nil
+end  
+    
+    
+    
+    
