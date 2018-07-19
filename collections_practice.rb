@@ -29,7 +29,7 @@ end
 def find_a
   words_starting_with a = []
   array.collect do |word|
-    word.starts_with?("a")? words_starting_with_a << word: nil
+    word.starts_with?("a")? words_starting_with_a << word:nil
 end  
     
     
